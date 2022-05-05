@@ -1,0 +1,437 @@
+body {
+    background-color: #c0cbed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.banner {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    height: 80px;
+    
+}
+.navbar {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-top: 100px;
+    text-align: right;
+    padding-right: 80px;
+    height: 50px;
+}
+
+.navbar li {
+    vertical-align: baseline;
+    font-size: 15px;
+    list-style: none;
+    display: inline-block;
+    float: right; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #014235;
+    transition-duration: 0.6s;
+    font-family: Helvetica, sans-serif;
+    word-spacing: 30px;
+    padding: 15px 30px;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #014235;
+    color: #fff;
+}
+
+.navbar a:focus {
+    background-color: #014235;
+    color: #fff;
+}
+
+#bannertop {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-weight: 800;
+
+}
+
+#subbanner {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.1rem;
+    padding-left: 2px;
+}
+
+.wrapper{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, [col] 540px);
+    grid-template-rows: repeat(2, [row] auto);
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+.container1 {
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 40px;
+    height: auto;
+    background-color: #dce3f5;
+    border: 2px, 2px, 3px, 4px, blueviolet, dotted;
+    padding-bottom: 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.socials{
+    overflow: visible;
+    background-color: #fff;
+    height: 40px;
+    width: 414px;
+    padding: 3px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.socials svg{
+    float: right;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 5px;
+    display: inline-block;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+#SubHead1 {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.75rem;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+#linebreak {
+    font-family: Helvetica, sans-serif;
+    padding: 2px;
+    text-align: center;
+    line-height: 0cm;
+    font-weight: lighter;
+
+}
+
+#SubHead2 {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    letter-spacing: 0.2rem;
+    text-align: center;
+
+}
+
+.container1 img {
+    padding: 40px;
+    padding-bottom: 30px;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+   border-radius: 50%;
+   opacity: 0.5;
+   transition-duration: 0.s;
+}
+
+.container1 img:hover{
+    opacity: 1;
+}
+
+.container2 {
+    display: inline-block;
+    justify-content: left;
+    width: 600px;
+    height: auto;
+    border: 2px, 2px, 3px, 4px, blueviolet, dotted;
+    box-shadow: 0px, 0px, 5px, 5px, rgb(197, 152, 152);
+    line-height: 0%;
+}
+
+#HeadMain {
+    font-weight: 800;
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: Helvetica, sans-serif;
+
+}
+
+#SubHeadMain {
+    font-family: Helvetica, sans-serif;
+    padding: 3px;
+    line-height: 1rem;
+    font-weight: lighter;
+
+}
+
+.container2 p{
+    width: 369px;
+    line-height: 1.5em;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    background-color: #fff;
+
+}
+
+footer p{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+
+footer svg{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.projecthead {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+    align-content: center;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+#projecttitle{
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.projecthead p{
+    line-height: 1.5em;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.projectcontainer {
+ margin: 0 auto;
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(2, [col] 400px);
+    grid-template-rows: repeat(1, [row] auto);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #fff;
+    padding-left: 40px;
+    margin-bottom: 140px;
+}
+
+.projectcontainer p{
+line-height: 1.5em;
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 300;
+padding-right: 10px;
+
+}
+
+
+.projectcontainer img{
+    border: 3px solid #014235;
+}
+
+#containertitle{
+    color: #C7C7C7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#containersubtitle {
+    float: inline-start;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+
+.ContactForm {
+    font-family: Helvetica, sans-serif;
+    height: fit-content;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    width: 500px;
+    max-width:100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.ContactFormH1 {
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 0.2rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+  .form-control label{
+      display: inline-block;
+      margin-bottom: 5px;
+  }
+
+  .form-control input{
+      border-top: 2px solid #fff;
+      border-left: 2px solid #fff;
+      border-right: 2px solid #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 100%;
+      padding: 10px;
+  }
+
+  .form-control.success input{
+    border-color: #2ecc71;
+}
+
+.form-control.error input{
+    border-color: #dd460b;
+}
+
+  .form-control i{
+      position: absolute;
+      visibility: hidden;
+      top: 40px;
+      right: 10px;
+  }
+
+  .form-control.success i.fa-check-circle{
+      color: #2ecc71;
+      visibility: visible;
+  }
+
+  .form-control.error i.fa-exclamation-circle{
+    color: #dd460b;
+    visibility: visible;
+}
+
+  .form-control small{
+      visibility: hidden;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+.form-control.error small{
+    color:#dd460b;
+    visibility: visible;
+}
+
+    .form button{
+        background-color: #014235;
+        border: 2px solid #014235;
+        color: #fff;
+        border-radius: 20px;
+        font-family: inherit;
+        display: block;
+        padding: 10px;
+        width: 50%;
+        transition-duration: 0.5s;
+        font-weight: bold;
+    }
+
+    .form button:hover{
+        background-color: #fff;
+        color: #014235;
+        border: 2px solid #fff;
+        font-weight: bold;
+    }
+
+ 
+.hypebutton {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    height: fit-content;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    width: 500px;
+    max-width:100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+
+.hypebutton button{
+    background-color: #014235;
+    border: 2px solid #014235;
+    color: #fff;
+    border-radius: 20px;
+    font-family: inherit;
+    display: block;
+    padding: 10px;
+    width: 50%;
+    transition-duration: 0.5s;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.hypebutton button:hover{
+    background-color: #fff;
+    color: #014235;
+    border: 2px solid #fff;
+    font-weight: bold;
+    }
+
+.hypebutton p{
+    padding-left: 15px;
+    float: right;
+    justify-content: center;
+}

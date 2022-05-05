@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/67d5482057.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css.css">
+  <script src="form.js"></script>
+  <title>Contact</title>
+</head>
+
+<header>
+    <div class="banner">
+        <h3 id="bannertop"> <span style=color:#ffcbaa> ⯀ </span> Kermit D. Frog </h3>
+        <p id="subbanner">/ Up and Coming Indie Author</p>
+    </div>
+</header>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="index.html">HOME</a></li>
+        </ul>
+    </div>
+
+    <div class="hypebutton">
+        <h2>
+            Are you excited for Kermit's new books?
+        </h2>
+        <button type="button" onClick="onClick()">YES!</button>
+        
+        <p>So are: <a id="clicks">0</a> other people!</p>
+    </div>
+
+
+    <div class="ContactFormH1">
+        <h1>Join the Kermit Crew</h1>
+    </div>
+
+
+    <div class="ContactForm">
+        <form class="form" id="form">
+                <div class="form-control">
+                    <label for="fname">First Name</label>
+                    <input type="text" placeholder="First Name" id="fname" name="fname" required>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="lname">Last Name</label>
+                    <input type="text" placeholder="Last Name" id="lname" name="lname" required>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="email@email.com" id="email" name="email" required>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+
+                <button type= "submit" onclick="submitFunction()">SEND</button>
+          </form>  
+</div>
+</body>
+
+    <footer>
+        <p>© Kermit 2022 
+        <br>Made by Sarah</br>
+        </p>  
+    </footer>
